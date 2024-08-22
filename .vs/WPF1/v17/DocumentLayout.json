@@ -18,21 +18,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\kopen\\source\\repos\\WPF1\\WPF1\\MainWindow.xaml.cs",
-              "RelativeDocumentMoniker": "WPF1\\MainWindow.xaml.cs",
-              "ToolTip": "C:\\Users\\kopen\\source\\repos\\WPF1\\WPF1\\MainWindow.xaml.cs",
-              "RelativeToolTip": "WPF1\\MainWindow.xaml.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAAewBwAAAAZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-20T22:00:11.652Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -43,6 +30,19 @@
               "RelativeToolTip": "WPF1\\MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2024-08-20T22:00:25.622Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\kopen\\source\\repos\\WPF1\\WPF1\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "WPF1\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\kopen\\source\\repos\\WPF1\\WPF1\\MainWindow.xaml.cs",
+              "RelativeToolTip": "WPF1\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAFUAAAAAAAAAAAA5wEwAAABxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-20T22:00:11.652Z",
               "EditorCaption": ""
             }
           ]

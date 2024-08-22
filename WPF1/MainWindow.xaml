@@ -11,7 +11,7 @@
         <Grid.RowDefinitions>
             <RowDefinition Height="10"/>
             <RowDefinition Height=".10*"/>
-            <RowDefinition Height=".15*"/>
+            <RowDefinition Height=".075*"/>
             <RowDefinition Height=".15*"/>
             <RowDefinition Height=".075*"/>
             <RowDefinition Height=".075*"/>
@@ -27,15 +27,15 @@
                 <ColumnDefinition Width=".25*"/>
                 <ColumnDefinition Width=".15*"/>
             </Grid.ColumnDefinitions>
-            <TextBox Name="streetText" Grid.Row="1" Grid.Column="0" Height="20" VerticalAlignment="Center"/>
-            <TextBox Name="zipText" Grid.Row="1" Grid.Column="1" Height="20" VerticalAlignment="Center"/>
+            <TextBox Name="streetText" Grid.Row="1" Grid.Column="0" Height="20" VerticalAlignment="Center" GotFocus="streetText_GotFocus" GotMouseCapture="streetText_GotMouseCapture" Text="Street Address" Foreground="Gray"/>
+            <TextBox Name="zipText" Grid.Row="1" Grid.Column="1" Height="20" VerticalAlignment="Center" GotFocus="zipText_GotFocus" GotMouseCapture="zipText_GotMouseCapture" Text="Zip Code" Foreground="Gray"/>
             <Button Name="searchButton" Grid.Row="1" Grid.Column="2" Height="20" VerticalAlignment="Center" Click="searchButton_Click">Search</Button>
         </Grid>
         
-        <TextBlock Name="area" Grid.Row="2" VerticalAlignment="Center" HorizontalAlignment="Center"/>
-        <TextBlock Name="currentTemp" Grid.Row="3" VerticalAlignment="Center" HorizontalAlignment="Center"/>
-        <userControls:timeTempRow Grid.Row="4" x:Name="time"/>
-        <userControls:timeTempRow Grid.Row="5" x:Name="temp"/>
+        <TextBlock Name="area" Grid.Row="2" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="15"/>
+        <TextBlock Name="currentTemp" Grid.Row="3" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="22"/>
+        <userControls:timeTempRow Grid.Row="4" x:Name="time" FontSize="14"/>
+        <userControls:timeTempRow Grid.Row="5" x:Name="temp" FontSize="12"/>
         <userControls:daySummaryRow Grid.Row="6" x:Name="day0"/>
         <userControls:daySummaryRow Grid.Row="7" x:Name="day1"/>
         <userControls:daySummaryRow Grid.Row="8" x:Name="day2"/>

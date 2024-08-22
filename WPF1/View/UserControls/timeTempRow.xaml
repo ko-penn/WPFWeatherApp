@@ -16,10 +16,10 @@
             <ColumnDefinition Width=".2*"/>
             <ColumnDefinition Width="10"/>
         </Grid.ColumnDefinitions>
-        <TextBlock Name="box1" Grid.Column="1" Text="#" VerticalAlignment="Center" HorizontalAlignment="Center"/>
-        <TextBlock Name="box2" Grid.Column="2" Text="#" VerticalAlignment="Center" HorizontalAlignment="Center"/>
-        <TextBlock Name="box3" Grid.Column="3" Text="#" VerticalAlignment="Center" HorizontalAlignment="Center"/>
-        <TextBlock Name="box4" Grid.Column="4" Text="#" VerticalAlignment="Center" HorizontalAlignment="Center"/>
-        <TextBlock Name="box5" Grid.Column="5" Text="#" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+        <TextBlock Name="box1" Grid.Column="1" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+        <TextBlock Name="box2" Grid.Column="2" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+        <TextBlock Name="box3" Grid.Column="3" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+        <TextBlock Name="box4" Grid.Column="4" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+        <TextBlock Name="box5" Grid.Column="5" VerticalAlignment="Center" HorizontalAlignment="Center"/>
     </Grid>
 </UserControl>

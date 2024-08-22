@@ -14,8 +14,8 @@
             <ColumnDefinition Width=".33*"/>
             <ColumnDefinition Width="10"/>
         </Grid.ColumnDefinitions>
-        <TextBlock Name="box1" Grid.Column="1" Text="#" VerticalAlignment="Center" HorizontalAlignment="Center"/>
-        <TextBlock Name="box2" Grid.Column="2" Text="#" VerticalAlignment="Center" HorizontalAlignment="Center"/>
-        <TextBlock Name="box3" Grid.Column="3" Text="#" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+        <TextBlock Name="box1" Grid.Column="1" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="14"/>
+        <TextBlock Name="box2" Grid.Column="2" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="12"/>
+        <TextBlock Name="box3" Grid.Column="3" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="12"/>
     </Grid>
 </UserControl>
